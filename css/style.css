@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Encode Sans';
+    src: url('../fonts/EncodeSans_Condensed-SemiBold.ttf') 
+    format('truetype');
+    font-display:swap;
+    weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Encode Sans Semi Condensed';
+    src: url('../fonts/EncodeSans_SemiCondensed-Regular.ttf') 
+    format('truetype');
+    font-display:swap;
+    weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('../fonts/EncodeSans_Expanded-Regular.ttf') 
+    format('truetype');
+    font-display:swap;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Header\ section.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    align-items: stretch;
+}
+
+header .classes{
+    width: 112px;
+    height: 76px;
+    background-color: black;
+    border: 1px solid #575757; border-top: 0;
+    text-align: center;
+    line-height: 76px;
+    margin: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.classes:hover{
+    background-color: #1F41FF;
+}
+
+header .about{
+    width: 105px;
+    height: 76px;
+    background-color: black;
+    border: 1px solid #575757; border-top: 0;
+    line-height: 76px;
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.about:hover{
+    background-color: #1F41FF;
+}
+
+header p{
+    width: 286px;
+    height: 76px;
+    background-color: black;
+    border: 1px solid #575757; border-top: 0;
+    line-height: 76px;
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 18px;
+    transition: color 0.6s ease, color 0.6s ease;
+}
+
+header p:hover{
+    color: #575757;
+}
+
+header .logo{
+    flex: 1;
+    min-width: 0;
+    height: 76px;
+    background-color: black;
+    border-left: solid 1px #575757;
+    border-bottom: solid 1px #575757;
+    line-height: 76px;
+    text-align: right;
+    padding-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 30px;
+}
+
+section h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 126px;
+    color: #ffffff;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 90%;
+}
+
+section a{
+    width: 158px;
+    height: 48px;
+    display: block;
+    background-color: #D0FBF9;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 361px;
+}
+
+section a:hover{
+    background-color: #D900FF;
+    color: #ffffff;
+}
